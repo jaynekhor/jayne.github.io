@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+body{
+
+  background-color: lightblue;
+  background-image: url('http://hdflowerwallpaper.com/wallpaper/2015/08/green-flowers-images-26-desktop-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background attachment: fixed;
+  background-size: cover;
+
+  color: purple;
+  font-family: 'Roboto', sans-serif
+
+  /*https://fonts.google.com.
+  can go and find the font that you want, click + sign and copy the import link and paste the link over to ensure font selected can be opened in any computer */
+
+}
+
+h1{
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 25px;
+
+}
+
+a{
+  color: red;
+  text-decoration: none:
+  letter-spacing:2px
+
+}
+
+.card{
+  background-color: yellow;
+  colour: black;
+  width: 300px;
+  height: 200px;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 60px;
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+ul.nav{
+  margin: 0;
+  padding: 20px;
+  background: #eee;
+
+}
+
+ul.nav li{
+  line-style: none;
+  display: inline;
+  margin-right: 40px;
+
+}
+
+ul.nav li a{
+  color: blue;
+  text-transform: uppercase;
+  letter-spacing: 0;
+
+}
+
+ul.nav li a:hover{
+  border-bottom: 2px solid blue;
+}
+
+.input{
+  border: 1px solid gray;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
